@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Odd Jobs For You!!!</h1>
+    <p class="lead">Odd Jobs For You is a website dedicated to providing cutomers a means of connecting with odd job providers located near them.</p>
+    <p>@Html.ActionLink("Create Job", "Create",new { controller = "Job" }, new { @class="btn btn-primary btn-lg"})</p>  
+    <p>@Html.ActionLink("Available Jobs", "Index",new { controller = "Job" }, new { @class="btn btn-primary btn-lg"})</p>  
+    <p
+</div>
+
+<style>
+    .jumbotron {
+        background-color: lightgray;
+        margin: 0;
+    }
+</style>
